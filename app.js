@@ -1,0 +1,1 @@
+let data={settings:{},products:[]};async function load(){const r=await fetch('/api/data',{cache:'no-store'});if(!r.ok)throw Error('Veriler alınamadı');data=await r.json();return data}const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
