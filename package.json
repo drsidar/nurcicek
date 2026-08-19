@@ -1,1 +1,1 @@
-{"name":"nur-cicek-cloud-v2","private":true,"dependencies":{"@netlify/blobs":"^11.0.1"}}
+{"name":"nur-cicek-cloud-v2","private":true,"dependencies":{"@netlify/blobs":"10.0.9"}}
